@@ -1,5 +1,10 @@
 public class P01_RectanglePattern {
     public static void main(String[] args) {
-        System.out.println("Rectangle Pattern");
+        for(int row = 0;row < 5;row++){
+            for(int col = 0;col < 5;col++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
