@@ -1,3 +1,9 @@
+//* * * * * *
+//* * * * * *
+//* * * * * *
+//* * * * * *
+//* * * * * *
+
 import java.util.Scanner;
 
 public class P01_RectanglePattern {
