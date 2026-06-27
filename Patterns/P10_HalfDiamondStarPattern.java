@@ -35,3 +35,7 @@ public class P10_HalfDiamondStarPattern {
 
     }
 }
+//if(i <=n)
+//   stars =i;
+//else
+//   stars =2*n -i;
