@@ -16,10 +16,12 @@ public class P03_RightAngledNumberTriangle {
             System.out.println();
         }
     }
-    static void main(String[] args) {
+
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of rows: ");
         int rows = sc.nextInt();
         print_number_triangle(rows);
+        sc.close();
     }
 }
