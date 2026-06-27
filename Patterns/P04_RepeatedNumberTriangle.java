@@ -8,7 +8,7 @@
 import java.util.Scanner;
 
 public class P04_RepeatedNumberTriangle {
-    public static void print_repeted_number_triangle(int rows) {
+    public static void print_repeated_number_triangle(int rows) {
         for (int i = 1; i <= rows; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(i);
@@ -21,6 +21,7 @@ public class P04_RepeatedNumberTriangle {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of rows: ");
         int rows = sc.nextInt();
-        print_repeted_number_triangle(rows);
+        print_repeated_number_triangle(rows);
+        sc.close();
     }
 }
