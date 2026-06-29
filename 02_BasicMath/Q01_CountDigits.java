@@ -1,5 +1,7 @@
 //Enter the number: 12345
 //Number of digits in this number are: 5
+//Time Complexity = O(log₁₀N)
+//Space Complexity = O(1)
 
 import java.util.Scanner;
 
