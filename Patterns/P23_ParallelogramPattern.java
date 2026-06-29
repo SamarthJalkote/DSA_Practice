@@ -1,8 +1,8 @@
 //        Enter the number of rows: 5
-//        * * * * *
-//        * * * * *
-//        * * * * *
-//        * * * * *
+//            * * * * *
+//           * * * * *
+//          * * * * *
+//         * * * * *
 //        * * * * *
 
 import java.util.Scanner;
