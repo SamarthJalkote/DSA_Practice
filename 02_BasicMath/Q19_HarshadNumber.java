@@ -24,6 +24,7 @@ public class Q19_HarshadNumber {
         System.out.print("Enter the number : ");
         int num = sc.nextInt();
         if (print_harshad_num(num)) System.out.println(num + " is a Niven Number");
+        else System.out.println(num + " is not a Niven Number.");
         sc.close();
     }
 
