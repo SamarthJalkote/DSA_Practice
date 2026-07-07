@@ -11,10 +11,8 @@ public class R10_DecimalToBinaryUsingRecursion {
             System.out.print(1);
             return;
         }
-        int binary = n % 2;
-        int q = n / 2;
-        print_Ans(q);
-        System.out.print(binary);
+        print_Ans(n / 2);
+        System.out.print(n % 2);
     }
 
     public static void main(String[] args) {
