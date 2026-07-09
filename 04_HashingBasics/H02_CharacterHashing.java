@@ -22,7 +22,7 @@ import java.util.Scanner;
 
 public class H02_CharacterHashing {
     public static void charHashing(int q, String s, Scanner sc) {
-        int[] hash = new int[26];
+        int[] hash = new int[26];  // for all char hashing use 256 size,,, and to need of (c - 'a');
 
         for (int i = 0; i < s.length(); i++) {
             hash[s.charAt(i) - 'a']++;
@@ -36,7 +36,6 @@ public class H02_CharacterHashing {
         }
 
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the string : ");
