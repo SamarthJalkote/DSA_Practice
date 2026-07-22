@@ -1,7 +1,7 @@
 //        Enter the size of array : 5
-//        Enter the array elements : 8 1 3 9 0
-//        Sorted Array:
-//        0 1 3 8 9
+//        Enter the array elements : 12 5 7 1 90
+//        Sorted array :
+//        1 5 7 12 90
 
 //Time Complexity:
 //Best Case:O(N²)
@@ -10,7 +10,7 @@
 //
 //Space Complexity:O(1)
 
-import java.util.Scanner;
+import java.util.*;
 
 public class S01_SelectionSort {
     public static void sortIt(int[] arr) {
@@ -31,18 +31,17 @@ public class S01_SelectionSort {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of array : ");
         int size = sc.nextInt();
-        System.out.print("Enter the array elements : ");
-        int[] arr = new int[size];
 
+        int[] arr = new int[size];
+        System.out.print("Enter the array elements : ");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.println("Sorted Array:");
+        System.out.println("Sorted array : ");
         sortIt(arr);
         for (int num : arr) {
             System.out.print(num + " ");
         }
         sc.close();
-
     }
 }
